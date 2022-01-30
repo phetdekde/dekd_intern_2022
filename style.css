@@ -36,7 +36,7 @@ img {
 
 #back, #next {
     position: absolute;
-    top: 50%;
+    top: 45%;
     background-color:rgba(192,192,192,0.7);
     width: 3.5rem;
     height: 3.5rem;
@@ -80,7 +80,7 @@ img {
     cursor: pointer;
 }
 
-.dot-items:hover {
+.dot-items:hover:not(.selected) {
     background-color: gray;
 }
 

@@ -29,8 +29,8 @@ for (let i = 0; i < dotList.length; i++) {
 const scrollTo = (selectedPage) => {
     dotList[currentPage].classList.toggle('selected');
     dotList[selectedPage].classList.toggle('selected');
-    currentPage = selectedPage;
     imgList[selectedPage].scrollIntoView({
         inline: 'center' 
     });
+    currentPage = selectedPage;
 } 
